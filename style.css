@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #7b838a;
+}
+
+.about {
+    height: 100vh;
+    padding: 150px 0;
+}
+
+#title {
+    margin: auto;
+    text-align: center;
+    width: 41%;
+
+    h3 {
+        white-space: nowrap;
+        color: #002347;
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+
+    p {
+        font-size: 16px;
+        font-style: italic;
+    }
+}
+
+.slider {
+    width: 77%;
+    padding-top: 10px;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 48%;
+    height: 250px;
+    display: flex;
+    gap: 25px;
+    padding: 50px 55px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: .2s;
+    box-shadow: 10px 15px 30px 10px rgba(221, 221, 221, 0.3);
+}
+.card:hover{
+    box-shadow: 10px 15px 15px 0px rgba(130, 130, 130, 0.493);
+}
+
+.card img {
+    width: 130px;
+    height: 130px;
+}
+
+.card h5 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #002347;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
