@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is formu</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="All">
+        <div class="modal">
+            <h2>Sizin ucun uygun vakansiya axtarilir</h2>
+            <h3>Zehmet olmasa gozleyin</h3>
+            <div class="loader"></div>
+        </div>
+        <div class="all">
+            <form>
+                <h1>Is Formu</h1>
+                <div>
+                    <h2>Ad</h2>
+                    <input type="text" id="ad" placeholder="Ad">
+                </div>
+                <div>
+                    <h2>Soyad</h2>
+                    <input type="text" id="soyad" placeholder="Soyad">
+                </div>
+                <div class="cins">
+                    <h2>Cinsiyyet</h2>
+                    <div>
+                        <span>
+                            <input type="radio" value="bey" name="cinsiyyet">
+                            <label for="cinsiyyet">M</label>
+                        </span>
+                        <span>
+                            <input type="radio" value="xanim" name="cinsiyyet">
+                            <label for="cinsiyyet">F</label>
+                        </span>
+                    </div>
+                </div>
+                <select id="isler">
+                </select>
+                <div class="flex">
+                    <h2>Maas Araligi</h2>
+                    <p>500</p>
+                    <input type="range" min="500" id="maas" max="2000" value="500">
+                    <p>2000</p>
+                </div>
+                <button type="submit" id="submit">Gonder</button>
+            </form>
+            <div class="elanlar">
+                <h2>Elanlar</h2>
+                <h3 id="response"></h3>
+                <section></section>
+            </div>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
